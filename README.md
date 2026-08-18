@@ -32,10 +32,6 @@ O projeto serve como ambiente de experimentação e estudo, permitindo aplicar n
 
 > Em construção...
 
-## 🗺️ Roadmap
-
-> Em construção...
-
 ---
 
 ### ⭐ Gostou do projeto?
