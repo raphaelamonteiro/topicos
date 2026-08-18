@@ -40,7 +40,7 @@ Se este projeto foi útil para você, deixe uma ⭐ no repositório.
 
 <sub>
   
-Projeto e laboratório de estudos desenvolvido ao longo da disciplina de Tópicos Especiais em Informática, sob orientação do professor [Emanuel Mineda](https://github.com/mineda).
+Laboratório de estudos desenvolvido ao longo da disciplina de Tópicos Especiais em Informática, sob orientação do professor [Emanuel Mineda](https://github.com/mineda).
 
 <br />
 
