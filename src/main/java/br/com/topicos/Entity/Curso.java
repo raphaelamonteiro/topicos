@@ -1,7 +1,5 @@
 package br.com.topicos.entity;
 
-import java.time.LocalDate;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,21 +8,18 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "aln_aluno")
-public class Aluno {
+@Table(name = "cur_curso")
+public class Curso {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "aln_id")
+    @Column(name = "cur_id")
     private Long id;
 
-    @Column(name = "aln_ra")
-    private Long ra;
-
-    @Column(name = "aln_nome")
+    @Column(name = "cur_nome")
     private String nome;
 
-    @Column(name = "aln_data_nascimento")
-    private LocalDate dataNascimento;
+    @Column(name = "cur_sigla")
+    private String sigla;
 
     public Long getId() {
         return id;
@@ -32,14 +27,6 @@ public class Aluno {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public Long getRa() {
-        return ra;
-    }
-
-    public void setRa(Long ra) {
-        this.ra = ra;
     }
 
     public String getNome() {
@@ -50,11 +37,12 @@ public class Aluno {
         this.nome = nome;
     }
 
-    public LocalDate getDataNascimento() {
-        return dataNascimento;
+    public String getSigla() {
+        return sigla;
     }
 
-    public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
+    public void setSigla(String sigla) {
+        this.sigla = sigla;
     }
+
 }

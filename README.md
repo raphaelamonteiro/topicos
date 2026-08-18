@@ -28,6 +28,10 @@ O projeto serve como ambiente de experimentação e estudo, permitindo aplicar n
 
 > Em construção...
 
+## 🧩 Comandos úteis
+
+> mvn test
+
 ## 🧩 Como executar
 
 > Em construção...
