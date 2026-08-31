@@ -30,7 +30,31 @@ O projeto serve como ambiente de experimentação e estudo, permitindo aplicar n
 
 ## 🧩 Comandos úteis
 
-> mvn test
+1. Limpa o projeto e executa todos os testes unitários e de integração.
+
+```java
+mvn clean test
+```
+
+2. Inicia a aplicação Spring Boot diretamente pelo terminal.
+
+```java
+mvn spring-boot:run
+```
+
+
+3. Compila a aplicação, roda os testes e gera o arquivo .jar na pasta target/.
+
+```java
+mvn clean package
+```
+
+4. Exibe a árvore de dependências do projeto para identificar conflitos.
+
+```java
+mvn dependency:tree
+```
+
 
 ## 🧩 Como executar
 
