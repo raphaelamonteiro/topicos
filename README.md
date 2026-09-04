@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🌱 Tópicos
+# 🌱 Tópicos - Backend
 
 </div>
 
 ## 🌿 Sobre
 
-Plataforma acadêmica construída a partir de conceitos e aprendizados explorados ao longo da disciplina de **Tópicos Especiais em Informática**.
+API e plataforma acadêmica construída a partir de conceitos e aprendizados explorados ao longo da disciplina de **Tópicos Especiais em Informática**.
 
 O projeto serve como ambiente de experimentação e estudo, permitindo aplicar na prática os conceitos apresentados em aula e documentar sua evolução ao longo do desenvolvimento.
 
@@ -21,57 +21,60 @@ O projeto serve como ambiente de experimentação e estudo, permitindo aplicar n
 ## 📖 Estudos
 
 ### Iniciando com Spring
-
 - [Spring Initializr](https://start.spring.io/)
 
 ### 🧪 Anotações
-
 > Em construção...
 
-## 🧩 Comandos úteis
+## 🚀 Como Executar
 
-1. Limpa o projeto e executa todos os testes unitários e de integração.
+### Pré-requisitos
+* Java JDK 17+ instalado
+* Maven instalado (ou utilizar o `./mvnw` do projeto)
+* Docker & Docker Compose (para subida do banco PostgreSQL)
 
-```java
-mvn clean test
+### Passo a Passo
+
+1. Clone o repositório:
+```sh
+git clone https://github.com/raphaelamonteiro/topicos-backend.git
+cd topicos-backend
+
 ```
 
-2. Inicia a aplicação Spring Boot diretamente pelo terminal.
+2. Suba o container do banco de dados:
 
-```java
+```sh
+docker compose up -d
+
+```
+
+3. Execute a aplicação:
+
+```sh
 mvn spring-boot:run
+
 ```
 
+## 🧩 Comandos Úteis
 
-3. Compila a aplicação, roda os testes e gera o arquivo .jar na pasta target/.
+```sh
+# Limpa o projeto e executa os testes
+mvn clean test
 
-```java
+# Compila e gera o arquivo .jar em target/
 mvn clean package
-```
 
-4. Exibe a árvore de dependências do projeto para identificar conflitos.
-
-```java
+# Exibe a árvore de dependências para verificar conflitos
 mvn dependency:tree
+
 ```
 
-
-## 🧩 Como executar
-
-> Em construção...
-
----
 
 ### ⭐ Gostou do projeto?
 
 Se este projeto foi útil para você, deixe uma ⭐ no repositório.
 
-<sub>
-  
-Laboratório de estudos desenvolvido ao longo da disciplina de Tópicos Especiais em Informática, sob orientação do professor [Emanuel Mineda](https://github.com/mineda).
-
-<br />
-
 💻 Desenvolvido por [Raphaela Monteiro](https://github.com/raphaelamonteiro).
 
-</sub>
+> Laboratório de estudos desenvolvido ao longo da disciplina de Tópicos Especiais em Informática, sob orientação do professor [Emanuel Mineda](https://github.com/mineda).
